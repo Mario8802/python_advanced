@@ -4,6 +4,7 @@ def is_valid(row, col, size):
 
 n = int(input())
 commands = input().split()
+
 matrix = []
 curr_row, curr_coll = 0, 0
 coal = 0
