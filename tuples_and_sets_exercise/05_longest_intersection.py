@@ -14,6 +14,12 @@ for _ in range(n):
         longest_intersection = intersection
 print(f"Longest intersection is {list(longest_intersection)} with length {len(longest_intersection)}")
 
+
+
+--------------------------------------------------------------------------------------------------------------------
+
+
+
 longest_intersection = set()
 
 for _ in range(int(input())):
