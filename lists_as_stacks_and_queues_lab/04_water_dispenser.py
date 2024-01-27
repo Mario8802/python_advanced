@@ -2,7 +2,6 @@ from collections import deque
 
 quantity = int(input())
 water_line = deque()
-
 name = input()
 
 while name != "Start":
