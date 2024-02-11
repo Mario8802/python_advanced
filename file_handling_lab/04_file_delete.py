@@ -1,3 +1,4 @@
+
 import os
 
 path = os.path.join("resources", "just_created.txt")
