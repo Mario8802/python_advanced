@@ -1,3 +1,4 @@
+
 text = tuple(input())
 unique_symbols = sorted(set(text))
 
