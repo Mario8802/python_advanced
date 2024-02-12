@@ -1,3 +1,4 @@
+
 n = int(input())
 
 unique_elements = set()
