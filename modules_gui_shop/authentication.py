@@ -1,6 +1,7 @@
 from tkinter import Entry
 from tkmacosx import Button  # windows from tkinter import Button
 
+
 from buying_page import display_products
 from canvas import root, frame
 from helpers import clean_screen, get_password_hash
