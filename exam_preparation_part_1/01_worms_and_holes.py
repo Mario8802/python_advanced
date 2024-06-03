@@ -34,3 +34,4 @@ if not holes:
     print(f"Holes left: none")
 else:
     print(f"Holes left: {', '.join([str(el) for el in holes])}")
+
