@@ -1,21 +1,20 @@
 def insertion_sort(nums):
-    for i in range(1, len(nums)):  # започваме от 1, защото на 0 е сортираната част
-        key = nums[i]  # взимаме key, защото при разместването, ще се загуби
-        j = i - 1  # взимаме последната стойност на сортираната част
+    for i in range(1, len(nums)):  # start from 1, because index 0 is the sorted part
+        key = nums[i]  # we take the key because it will be lost when shifting
+        j = i - 1  # take the last value of the sorted part
 
-        # докато не стигнем началото
-        # и докато не стигнем позиция, на която да поставим ключа
+        # while we haven't reached the beginning
+        # and while we haven't found the correct position to insert the key
         while j >= 0 and nums[j] > key:
-            nums[j + 1] = nums[j]  # shift-ваме елемента
-            j -= 1  # местим се наляво
+            nums[j + 1] = nums[j]  # shift the element to the right
+            j -= 1  # move left
 
-        nums[j + 1] = key  # слагаме ключа на валидната позиция
+        nums[j + 1] = key  # place the key at the valid position
 
 
 nums = [int(x) for x in input().split()]
 insertion_sort(nums)
 print(*nums)
 
-
-#thanks to
-#DiyanKalaydzhiev23
+# thanks to
+# DiyanKalaydzhiev23
