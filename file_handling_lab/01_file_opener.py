@@ -8,6 +8,6 @@ path = os.path.join("..", "..", "nested_folder", file_name)
 
 try:
     file = open("resources/text.txt", "r")
-    print("File found")
+    print("File found") 
 except FileNotFoundError:
     print("File is not found")
