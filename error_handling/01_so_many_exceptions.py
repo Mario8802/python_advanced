@@ -6,6 +6,6 @@ for i in range(len(numbers_list)):
     if number <= 5:
         result *= number
     elif 5 < number <= 10:
-        result /= number
+        result /= number 
 
 print(result)
